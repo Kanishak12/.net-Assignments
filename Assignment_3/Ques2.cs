@@ -27,7 +27,7 @@ namespace Assignment_3
 
         static void Main(string[] args)
         {
-            BankAccount acc = new BankAccount { AccountNumber = 101, HolderName = "Kunal", Balance = 5000 };
+            BankAccount acc = new BankAccount { AccountNumber = 101, HolderName = "Kanishak", Balance = 5000 };
             acc.Deposit(1500);
             acc.Withdraw(2000);
             acc.Display();
